@@ -1,0 +1,39 @@
+FontAwesomeIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.coming {
+  width: inherit;
+  height: 1100px;
+  background-color: #c11893;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coming button {
+  width: 85px;
+}
+
+.recomendation {
+  display: flex;
+}
+.season {
+  width: 100vw;
+  height: 1000px;
+  position: relative;
+}
+
+.mother {
+  position: absolute;
+  z-index: 1;
+}
+
+.season-p {
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+}

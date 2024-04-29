@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Knockout";
+  src: url("../font/Knockout\ HTF53-Heviweight\ Regular.otf");
+}
+
+.Footer {
+  width: 100vw;
+  color: #fff;
+}
+
+.footer-section1 {
+  width: 100vw;
+  height: 295px;
+  background-color: #145be4;
+  padding: 40px 24px;
+}
+
+.footer-section1 > b {
+  font-size: 36px;
+  line-height: 40px;
+  font-family: "Knockout";
+}
+.footer-email {
+  display: flex;
+  gap: 50px;
+}
+.footer-email input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  height: 50px;
+  width: 900px;
+}
+.footer-email input:focus {
+  outline: none;
+}
+.footer-email input::placeholder {
+  color: #fff;
+}
+
+.footer-section2 {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  padding: 48px 48px 108px;
+  border: 1px solid #f00;
+}
+.footer-section2-up {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-section2-left {
+  display: flex;
+  gap: 80px;
+}
+.footer-section2-left h5 {
+  margin-bottom: 25px;
+}
+.footer-section2-left p:hover {
+  text-decoration: underline;
+}
+
+/* .footer-section2-right {
+  position: relative;
+}
+.footer-section2-right img {
+  position: absolute;
+  z-index: 1;
+}
+.footer-section2-right-p {
+  position: absolute;
+  z-index: 2;
+} */
+.footer-section2-right img {
+  border-radius: 5px;
+}
+.bottom-p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+.copyrights {
+  display: flex;
+  color: gray;
+}
+
+.location {
+  display: flex;
+  margin-right: 20px;
+  gap: 20px;
+}
