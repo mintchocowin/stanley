@@ -1,0 +1,11 @@
+.nav2 {
+  display: flex;
+  justify-content: space-between;
+}
+.nav2-right {
+  display: flex;
+  gap: 30px;
+}
+.nav2-right p:hover {
+  text-decoration: underline;
+}
