@@ -1,6 +1,15 @@
-.nav2 {
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav1 {
+  width: 100%;
+}
+.nav2-wrap {
   display: flex;
   justify-content: space-between;
+  padding: 2px 48px;
 }
 .nav2-right {
   display: flex;

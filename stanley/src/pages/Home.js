@@ -6,6 +6,7 @@ import "./Home.css";
 import mother from "../image/mothersday.png";
 
 import CategoryCard from "../component/CategoryCard";
+import ProductSlide from "../component/ProductSlide";
 
 const responsive = {
   superLargeDesktop: {
@@ -63,10 +64,11 @@ const Home = () => {
       <div className="category">
         <div className="popular"></div>
         <div className="recomendation">
-          <CategoryCard/>
-          <CategoryCard/>
+          <CategoryCard />
+          <CategoryCard />
         </div>
       </div>
+      <ProductSlide />
       <div className="season">
         <div className="mother">
           <img src={mother} />
@@ -84,6 +86,7 @@ const Home = () => {
           <button>SHOP NOW</button>
         </div>
       </div>
+      <ProductSlide />
     </div>
   );
 };

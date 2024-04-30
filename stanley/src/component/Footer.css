@@ -22,7 +22,17 @@
 }
 .footer-email {
   display: flex;
+  margin-top: 70px;
   gap: 50px;
+}
+/* .footer-email-p {
+  position: absolute;
+} */
+.footer-email-p p:nth-child(1) {
+  font-size: 18px;
+}
+.footer-email-p p:nth-child(2) {
+  font-size: 12px;
 }
 .footer-email input {
   background: transparent;

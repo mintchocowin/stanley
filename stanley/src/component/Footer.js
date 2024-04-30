@@ -45,9 +45,9 @@ const Footer = () => {
         <p>Hear about new arrivals,sales,and other news</p>
         <div className="footer-email">
           <input type="text" placeholder="Your Email Address" />
-          <div>
+          <div className="footer-email-p">
             <p>
-              To receive SMS updates Text <b>STANLEY</b>to <b>22936</b>
+              To receive SMS updates Text <b>STANLEY </b>to <b>22936</b>
             </p>
             <p>
               Msg & data rates may apply. Msg frequency varies. Unsubscribe at

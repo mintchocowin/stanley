@@ -21,7 +21,7 @@ const navmenu = ["NEW", "QUENCHER", "HYDRATE", "SHOP", "APPAREL", "CUSTOMIZE"];
 
 const Navigation = () => {
   return (
-    <div>
+    <div className="nav">
       <div className="nav1">
         <Navbar bg="dark" data-bs-theme="dark">
           <Container>
@@ -42,15 +42,17 @@ const Navigation = () => {
         <br />
       </div>
       <div className="nav2">
-        <div className="nav2-right">
-          <img width={250} src={logo} />
-          {navmenu.map((item, idx) => (
-            <p key={idx}>{item}</p>
-          ))}
-        </div>
-        <div className="nav2-left">
-          <FontAwesomeIcon icon={faMagnifyingGlass} />
-          <FontAwesomeIcon icon={faCartShopping} />
+        <div className="nav2-wrap">
+          <div className="nav2-right">
+            <img width={250} src={logo} />
+            {navmenu.map((item, idx) => (
+              <p key={idx}>{item}</p>
+            ))}
+          </div>
+          <div className="nav2-left">
+            <FontAwesomeIcon icon={faMagnifyingGlass} />
+            <FontAwesomeIcon icon={faCartShopping} />
+          </div>
         </div>
       </div>
     </div>
