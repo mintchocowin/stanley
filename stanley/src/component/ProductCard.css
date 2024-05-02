@@ -6,6 +6,18 @@
   height: 400px;
   border: 1px solid #f00;
 }
+
+.p-group {
+  display: flex;
+  justify-content: space-between;
+}
+.maintumblr {
+  width: 250px;
+  margin-bottom: 50px;
+}
+.colortumblr {
+  width: 50px;
+}
 .name {
   font-size: 18px;
   line-height: 22px;

@@ -1,6 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./ProductCard.css";
+
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -20,24 +21,26 @@ const responsive = {
     items: 1,
   },
 };
-const ProductCard = () => {
+const ProductCard = ({ item }) => {
   return (
     <div className="productCard">
       <div className="image">
-        <p>New</p>
-        <img />
+        <div className="p-group">
+          <p className="p-left"></p>
+          <p className="p-right"></p>
+        </div>
+        <img className="maintumblr" />
         <Carousel responsive={responsive}>
-          <div>Item 1</div>
-          <div>Item 2</div>
-          <div>Item 3</div>
-          <div>Item 4</div>
+          <div>
+            <img className="colortumblr" />
+          </div>
         </Carousel>
       </div>
-      <p>7 Colors</p>
-      <b className="name">The All Day Madeleine Midi Cooler</b>
+      <p className="color-name">{item?.detail}</p>
+      <b className="name">{item?.name}</b>
       <br />
-      <b className="detail">Backpack | 20 Can | 14.8QT | 14.O L</b>
-      <p className="price">$170.00</p>
+      <b className="detail">{item?.detail}</b>
+      <p className="price">{item?.price}</p>
     </div>
   );
 };

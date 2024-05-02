@@ -1,0 +1,78 @@
+{
+  "BESTSELLERS": [
+    {
+      "p-right": "Best Seller",
+      "p-left": "Customize",
+      "main-tumblr": "../src/image/BestSellers/bestsellers-1.webp",
+      "color-sum": "31Colors",
+      "color1": {
+        "color-tumblr": "../src/image/BestSellers/bestsellers-1-1.png",
+        "color-name": ""
+      },
+      "color2": {
+        "color-tumblr": "../src/image/BestSellers/bestsellers-1-2.png",
+        "color-name": ""
+      },
+      "color3": {
+        "color-tumblr": "../src/image/BestSellers/bestsellers-1-3.png",
+        "color-name": ""
+      },
+      "color4": {
+        "color-tumblr": "../src/image/BestSellers/bestsellers-1-4.png",
+        "color-name": ""
+      },
+      "color5": {
+        "color-tumblr": "../src/image/BestSellers/bestsellers-1-5.png",
+        "color-name": ""
+      },
+      "color6": {
+        "color-tumblr": "../src/image/BestSellers/bestsellers-1-6.png",
+        "color-name": ""
+      },
+      "color7": {
+        "color-tumblr": "../src/image/BestSellers/bestsellers-1-7.png",
+        "color-name": ""
+      },
+      "name": "The All Day Madeleine Midi Cooler",
+      "detail": "Backpack | 20 Can | 14.8QT | 14.O L",
+      "price": "$170.00"
+    },
+    {
+      "p-right": "Best Seller",
+      "p-left": "Customize",
+      "main-tumblr": "..src//image/BestSellers/bestsellers-2.webp",
+      "color-sum": "29Colors",
+      "color1": {
+        "color-tumblr": "",
+        "color-name": ""
+      },
+      "color2": {
+        "color-tumblr": "",
+        "color-name": ""
+      },
+      "color3": {
+        "color-tumblr": "",
+        "color-name": ""
+      },
+      "color4": {
+        "color-tumblr": "",
+        "color-name": ""
+      },
+      "color5": {
+        "color-tumblr": "",
+        "color-name": ""
+      },
+      "color6": {
+        "color-tumblr": "",
+        "color-name": ""
+      },
+      "color7": {
+        "color-tumblr": "",
+        "color-name": ""
+      },
+      "name": "The Quencher H2.O",
+      "detail": "FlowState Tumbler| 20 Can | 14.8QT | 14.O L",
+      "price": "$45.00"
+    }
+  ]
+}

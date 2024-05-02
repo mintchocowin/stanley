@@ -1,6 +1,8 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ProductCard from "./ProductCard";
+import "./ProductSlide.css";
+import { useState } from "react";
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -20,18 +22,25 @@ const responsive = {
     items: 1,
   },
 };
+
 const ProductSlide = () => {
+  const [product, setProduct] = useState([]);
+  const productList = async () => {
+    const url = "http://localhost:3000/BESTSELLERS";
+    const response = await fetch(url);
+    const data = await response.json();
+    setProduct(data);
+  };
   return (
     <div>
-      <div>
+      <div className="header">
         <p className="title">LATEST DROPS</p>
         <button>SHOP ALL</button>
       </div>
       <Carousel responsive={responsive}>
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
+        {product.map((item, idx) => (
+          <ProductCard key={idx} item={item} />
+        ))}
       </Carousel>
     </div>
   );
