@@ -25,7 +25,7 @@ const Navigation = () => {
       <div className="nav1">
         <Navbar bg="dark" data-bs-theme="dark">
           <Container>
-            <Navbar.Brand href="#home">Shop Gifts from Mom</Navbar.Brand>
+            <Navbar.Brand href="#home">Shop Gifts from Grads</Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link href="#">Login|</Nav.Link>
               <Nav.Link href="#">Create Account|</Nav.Link>

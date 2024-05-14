@@ -3,6 +3,7 @@ import "react-multi-carousel/lib/styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import "./Home.css";
+import Header from "../component/Header";
 import mother from "../image/mothersday.png";
 
 import CategoryCard from "../component/CategoryCard";
@@ -36,6 +37,7 @@ const responsive = {
 const Home = () => {
   return (
     <div>
+      <Header />
       <div className="type">
         <div className="type-p">DISCOVER THE LATEST</div>
         <div className="type-slide">

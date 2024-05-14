@@ -96,10 +96,10 @@ const Footer = () => {
                 <FontAwesomeIcon icon={faCopyright} /> STANLEY, ALL Rights
                 Reserved.
               </p>
-              <u>Terms of Sale</u>
-              <u>Terms + Condition </u>
-              <u>Privacy Policy </u>
-              <u>Your Privacy Choices</u>
+              <p>Terms of Sale</p>
+              <p>Terms + Condition</p>
+              <p>Privacy Policy</p>
+              <p>Your Privacy Choices</p>
             </div>
             <div className="location">
               <p>USA</p>

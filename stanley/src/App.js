@@ -5,6 +5,7 @@ import Footer from "./component/Footer";
 import Navigation from "./component/Navigation";
 import Home from "./pages/Home";
 
+
 function App() {
   return (
     <div className="App">
