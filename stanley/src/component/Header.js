@@ -26,7 +26,7 @@ const Header = () => {
         </h1>
         <p>Check out the lightweight IceFlow Bottle with Flip Straw Lid.</p>
       </Text>
-      <button>SHOP NOW</button>
+      <button>SHOP NOWww</button>
     </div>
   );
 };
